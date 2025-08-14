@@ -1,0 +1,46 @@
+/* Fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:host {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212; /* Fundo preto dark mode */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tempo-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 40px rgba(255,255,255,0.1);
+  }
+
+  box-shadow: 0 15px 30px rgba(255,255,255,0.05);
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+/* Gradientes personalizados */
+.bg-gradient-juntos {
+  background: linear-gradient(135deg, #8e2de2, #ff6a00); /* Roxo para rosa/laranja */
+}
+
+.bg-gradient-casados {
+  background: linear-gradient(135deg, #f59e0b, #f97316); /* Amarelo para laranja */
+}
+
+/* Tipografia e espaçamento */
+.card-title {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.card-text {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
